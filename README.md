@@ -7,6 +7,6 @@
 <br />
 🚀  **Task 1 -PERSONAL PORTFOLIO WEBSITE** 👇
 <br>
-🔗 Link - https://github.com/Raj8658/OIBSIP---Task-1.git
+🔗 Link - https://github.com/Raj8658/OIBSIP-TASK-2.git
 <br />
 
