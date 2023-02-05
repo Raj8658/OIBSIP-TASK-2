@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    scroll-behavior: smooth;
+    background-color: rgb(29, 29, 29);
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: fontlogo;
+    src: url("/fonts/Pacifico.ttf");
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: rgb(29, 29, 29);
+    color: white;
+
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    object-fit: cover;
+    max-width: 110px;
+    margin-top: 20px;
+    margin-right: 200px;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    background-color: rgb(252, 16, 86);
+    border-radius: 10px;
+}
+.sec-navbar {
+    /* height: 600px; */
+    height: 38em;
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: spa;
+    text-decoration: none;
+}
+
+.first-img img {
+    width: 40em;
+    margin-left: 10em;
+}
+
+.name h1 {
+    font-size: 70px;
+    font-family: 'Caveat', cursive;
+    color: rgb(252, 16, 86);
+}
+
+.name h3 {
+    font-size: 50px;
+}
+
+.sec-navbar a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    /* color: indianred; */
+    /* box-shadow: 5px; */
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    color: deepskyblue;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: darkgrey;
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    color: royalblue;
+}
+
+.fa-google:before {
+    content: "\f1a0";
+    color: lightgreen;
+}
+
+.button {
+    /* padding: 15px 25px; */
+    /* margin-top: 30px; */
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background: rgb(252, 16, 86);
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: transparent;
+    border: 3px solid rgb(252, 16, 86);
+    /* box-shadow: 2px solid rgb(252, 16, 86); */
+}
+
+
+/* ................About Me - @Raj............. */
+
+.cer-navbar {
+    width: 100%;
+    height: 30vh;
+    /* color: #03C988; */
+    color: rgb(252, 16, 86);
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    display: flex;
+}
+.cer-name {
+    transition: 0.5s;
+    font-family: 'POPPINS';
+}
+.cer-name:hover{
+    border-bottom: 10px solid rgb(252, 16, 86);
+    /* border-style: ; */
+}
+.about {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.about img {
+    width: 30%;
+    height: 110%;
+    border-radius: 10px;
+    margin-left: 120px;
+    justify-content:flex-start;
+    transition: 0.4s;
+    display: block;
+}
+.about img:hover {
+    transform: scale(1.10);
+}
+.about h2{
+    margin-left: 90px;
+    /* margin-top: 90px; */
+    padding: 10px 100px;
+    line-height: 2;
+    margin-bottom: 25px;
+    font-family: 'POPPINS';
+}
+
+/*------------------------- Skills Page ---------------- */
+
+.skill{
+    width: 500px;
+    /* margin: 60px auto; */
+    margin: 0px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    /* background: linear-gradient(135deg, rgba236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%); */
+    background: rgb(252, 16, 86);
+}
+.C{
+    width: 80%;
+    animation: C  3s;
+}
+.Cpp{
+    width: 85%;
+    animation: Cpp  3s;
+}
+.Html{
+    width: 80%;
+    animation: Html  3s;
+}
+.CSS{
+    width: 70%;
+    animation: CSS  3s;
+}
+.Java{
+    width: 70%;
+    animation: Java  3s;
+}
+/* .Python{
+    width: 65%;
+    animation: Python  3s;
+} */
+
+@keyframes C {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Cpp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes Html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes CSS {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+
+/* --------------------- Projects -- Incomplete work @Raj------------------- */
+/* .pro{
+    width: 100%;
+    height: 80vh;
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pro a{
+    margin-top: 8em;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 1px 3px rgba(128,0,128, 0.3), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.pro img{
+    margin-left: 50px;
+} */
+
+
+
+
+/*----------------- Contact Page ------------------ */
+
+section{
+    padding:40px 15% ;
+}
+.contact{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center
+    grid-gap: 6rem;
+
+}
+
+.contact-img img{
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.contact-form h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.spaan {
+    color: rgb(252, 16, 86);
+}
+
+.contact-form p{
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+.contact-form form {
+    position: relative;
+}
+.contact-form form input, form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover{
+    background: transparent;
+    border: 2px solid rgb(252, 16, 86);
+}
+
+
+/* ---------------------- Footer ------------------------- */
+
+footer{
+    margin-top: 120px;
+    margin-bottom: 47px;
+    align-items: center;
+    margin-left: 40em;
+    color: white;
+    height: 10vh;
+    letter-spacing: 1px;
+}
+.fa-heart-o {
+    color: rgb(252, 16, 86);
+}  
